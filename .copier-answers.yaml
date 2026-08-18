@@ -1,0 +1,9 @@
+# Changes here will be overwritten by Copier
+_commit: 690e994
+_src_path: https://github.com/python-project-templates/base.git
+add_extension: site-webawesome
+brand_name: Example
+github: python-project-templates
+project_description: A fast, accessible website built with Web Awesome.
+project_name: javascript-template-site-webawesome
+site_url: https://example.com

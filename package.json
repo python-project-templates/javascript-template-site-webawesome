@@ -1,0 +1,34 @@
+{
+  "name": "javascript-template-site-webawesome",
+  "version": "0.1.0",
+  "description": "A fast, accessible website built with Web Awesome.",
+  "private": true,
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "tsc --noEmit",
+    "lint": "oxlint . && oxfmt --check .",
+    "fix": "oxlint --fix . && oxfmt --write .",
+    "test": "pnpm test:e2e",
+    "test:e2e": "playwright test",
+    "test:e2e:update": "playwright test --update-snapshots"
+  },
+  "dependencies": {
+    "@awesome.me/webawesome": "^3.11.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.12.1",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^24.0.0",
+    "oxfmt": "^0.63.0",
+    "oxlint": "^1.78.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.1.5"
+  }
+}
