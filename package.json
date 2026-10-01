@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A fast, accessible website built with Web Awesome.",
   "private": true,
-  "packageManager": "pnpm@11.9.0",
+  "packageManager": "pnpm@11.28.0",
   "engines": {
     "node": ">=22"
   },
@@ -20,15 +20,15 @@
     "test:e2e:update": "playwright test --update-snapshots"
   },
   "dependencies": {
-    "@awesome.me/webawesome": "^3.13.0"
+    "@awesome.me/webawesome": "^3.14.0"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
     "@playwright/test": "^1.63.0",
-    "@types/node": "^26.6.2",
+    "@types/node": "^26.6.3",
     "oxfmt": "^0.70.0",
     "oxlint": "^1.85.0",
-    "typescript": "^7.0.2",
-    "vite": "^8.3.0"
+    "typescript": "^5.9.3",
+    "vite": "^8.3.1"
   }
 }
